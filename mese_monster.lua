@@ -8,7 +8,7 @@ local mese_monster_types = {
 						reach = 3,
 						hp_min = 15,
 						hp_max = 25,
-						armor = 60,
+						armor = 80,
 						skins = {"mobs_mese_monster_red.png"},
 						immune_to = {
 									{"default:pick_wood", 0},{"default:shovel_wood", 0},{"default:axe_wood", 0},{"default:sword_wood", 0}									
@@ -24,7 +24,7 @@ local mese_monster_types = {
 						reach = 3,
 						hp_min = 20,
 						hp_max = 30,
-						armor = 65,
+						armor = 75,
 						skins = {"mobs_mese_monster_green.png"},
 						immune_to = {
 									{"default:pick_wood", 0},{"default:shovel_wood", 0},{"default:axe_wood", 0},{"default:sword_wood", 0},
@@ -41,7 +41,7 @@ local mese_monster_types = {
 						reach = 4,
 						hp_min = 25,
 						hp_max = 35,
-						armor = 75,
+						armor = 70,
 						skins = {"mobs_mese_monster_blue.png"},
 						immune_to = {
 									{"default:pick_wood", 0},{"default:shovel_wood", 0},{"default:axe_wood", 0},{"default:sword_wood", 0},
@@ -59,7 +59,7 @@ local mese_monster_types = {
 						reach = 5,
 						hp_min = 30,
 						hp_max = 40,
-						armor = 85,
+						armor = 60,
 						skins = {"mobs_mese_monster_purple.png"},
 						immune_to = {
 									{"default:pick_wood", 0},{"default:shovel_wood", 0},{"default:axe_wood", 0},{"default:sword_wood", 0},

@@ -163,7 +163,6 @@ mobs:register_mob("mobs_monster_mese_monster:mese_monster", {
 			-- Normal spawn case 
 			for name,def in pairs(mese_monster_types) do
 				if pos.y <= def.y_min and pos.y >= def.y_max then						
-					
 					update(self,def)
 					return true 
 				end			
@@ -207,6 +206,16 @@ mobs:register_mob("mobs_monster_mese_monster:mese_monster", {
 		end	
 })
 
+if not mobs.custom_spawn_monster then
+mobs:spawn({
+	name = "mobs_monster_mese_monster:mese_monster",
+	nodes = {"default:stone"},
+	max_light = 7,
+	chance = 5000,
+	active_object_count = 1,
+	max_height = -20,
+})
+end
 
 mobs:register_egg("mobs_monster_mese_monster:mese_monster", S("Mese Monster"), "default_mese_block.png", 1)
 mobs:alias_mob("mobs:mese_monster", "mobs_monster:mese_monster") -- compatiblity
